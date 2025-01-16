@@ -2,6 +2,7 @@ Automated Planting System 🌱
 
 This project is an Automated Planting System that uses an STM32 microcontroller to efficiently manage soil moisture levels by controlling a water pump. It is designed to make plant care simple and hassle-free, ensuring optimal soil hydration while conserving water.
 
+
 🛠 Features
 
 Soil Moisture Monitoring:
@@ -24,6 +25,7 @@ Customizable Thresholds:
 
 Users can set specific moisture thresholds to suit different types of plants or soil conditions.
 
+
 ⚙️ System Workflow
 
 The soil moisture sensor outputs an analog signal proportional to the soil's moisture content.
@@ -39,6 +41,7 @@ The microcontroller activates the relay module.
 The relay powers the water pump, watering the soil.
 
 Once the soil reaches the desired moisture level, the pump is turned off automatically.
+
 
 🛒 Components Used
 
@@ -65,9 +68,11 @@ Miscellaneous
 
 Connecting wires, resistors, and a breadboard (optional PCB).
 
+
 Hardware Connection:
 
 ![con](https://github.com/user-attachments/assets/52c02b7b-4c1d-4ce8-bbb7-8cfca03ee723)
+
 
 PIN CONFIGURATION:
 
@@ -79,6 +84,7 @@ Purpose: Reads the analog signal from the soil moisture sensor.
 
 Mode: Analog Input (Default after reset).
 
+
 LED Output (Water Pump Indicator):
 
 Pin: PA5
@@ -89,7 +95,9 @@ Mode: GPIO Output (Push-Pull).
 
 Default State: Low (OFF).
 
+
 🔧 How to Build the Project
+
 
 Hardware Setup:
 
@@ -101,7 +109,9 @@ Power the Water Pump through the relay module.
 
 Ensure a common ground for the STM32, relay module, and power supply.
 
+
 Software Setup:
+
 
 Write Firmware:
 
