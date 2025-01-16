@@ -48,6 +48,18 @@ Hardware Connection:
 
 ![con](https://github.com/user-attachments/assets/52c02b7b-4c1d-4ce8-bbb7-8cfca03ee723)
 
+PIN CONFIGURATION:
+
+ADC Input:
+Pin: PA0 (ADC Channel 0)
+Purpose: Reads the analog signal from the soil moisture sensor.
+Mode: Analog Input (Default after reset).
+
+LED Output (Water Pump Indicator):
+Pin: PA5
+Purpose: Drives an LED to indicate the water pump's ON/OFF state.
+Mode: GPIO Output (Push-Pull).
+Default State: Low (OFF).
 
 🔧 How to Build the Project
 
